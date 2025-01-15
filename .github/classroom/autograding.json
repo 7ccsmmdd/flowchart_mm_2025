@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Check number of meta-classes",
+      "setup": "",
+      "run": "mvn -q -B -DfailIfNoTests=false -Dtest=CountMetaClasses verify",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Check meta-class names",
+      "setup": "",
+      "run": "mvn -q -B -DfailIfNoTests=false -Dtest=AssertClassPresence verify",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Check attributes",
+      "setup": "",
+      "run": "mvn -q -B -DfailIfNoTests=false -Dtest=AttributePresence verify",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Check references",
+      "setup": "",
+      "run": "mvn -q -B -DfailIfNoTests=false -Dtest=ReferencePresence verify",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Check inheritance",
+      "setup": "",
+      "run": "mvn -q -B -DfailIfNoTests=false -Dtest=InheritanceTest verify",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
