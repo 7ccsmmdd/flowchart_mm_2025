@@ -4,6 +4,6 @@ Bundle-Name: uk.ac.kcl.inf.mdd7.flowchart
 Bundle-SymbolicName: uk.ac.kcl.inf.mdd7.flowchart; singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
- io.github.classgraph;bundle-version="4.8.149",
- org.aopalliance;bundle-version="1.0.0",
+ io.github.classgraph.classgraph,
+ org.aopalliance,
  org.eclipse.core.runtime
